@@ -1,0 +1,15 @@
+[package]
+name = "lau-closure"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-closure"
+description = "The missing center — Universal Dirac operator and closure object proving all 14 executable theorems share one spectrum"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
+approx = "0.5"
